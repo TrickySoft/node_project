@@ -1,0 +1,20 @@
+{
+  "name": "medicalhub",
+  "version": "1.0.0",
+  "description": "medical hub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+   
+  },
+  "keywords": [
+    "clinical",
+    "services"
+  ],
+  "author": "arman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1"
+  }
+}
