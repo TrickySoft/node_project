@@ -2,7 +2,7 @@ const path = require('path');
 const express = require('express');
 const app = express();
 const hbs = require('hbs');
-const port = 3000;
+const port = process.env.PORT || 8000;
 const staticPath = path.join(__dirname, "../public")
 const registerPartials = path.join(__dirname, "../public/partials")
 app.use(express.static(staticPath))
